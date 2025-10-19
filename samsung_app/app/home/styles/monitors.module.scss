@@ -1,0 +1,100 @@
+.home_bg {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url(../../../public/home/photo_2025-07-06_13-18-29.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  gap: 15px;
+
+  .title {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+  .performans {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .logo {
+      width: 60px;
+    }
+  }
+
+  .btns_container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .link {
+      font-size: 16px;
+      text-decoration: underline;
+    }
+  }
+
+  .btn {
+    width: 150px;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 900px) {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+
+    .title {
+      font-size: 32px;
+      line-height: 1.3;
+      color: #fff;
+      text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    .performans {
+      text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+      color: #fff;
+      font-size: 16px;
+      flex-direction: column;
+      gap: 10px;
+      .logo {
+        width: 40px;
+      }
+    }
+
+    .btns_container {
+      flex-direction: column;
+      gap: 15px;
+
+      .link {
+        font-size: 14px;
+        color: #fff;
+      }
+    }
+
+    .btn {
+      width: 130px;
+      font-size: 14px;
+      color: #fff;
+      border: 1px solid #000;
+    }
+  }
+}

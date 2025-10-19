@@ -1,0 +1,19 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  justify-content: start;
+  padding: 20px 50px;
+  gap: 20px;
+  margin-top: 30px;
+
+  .text {
+    font-size: 13px;
+    color: #000;
+  }
+}

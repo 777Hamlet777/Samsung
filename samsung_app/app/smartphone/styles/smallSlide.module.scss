@@ -1,0 +1,41 @@
+.slider_container {
+  padding: 30px;
+  margin-top: 90px;
+
+  .card_container {
+    width: 150px !important;
+    padding: 10px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    height: 210px;
+
+    .card {
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      border-radius: 15px;
+      height: 100%;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 16px;
+      overflow: hidden;
+      .slide_img {
+        width: 100%;
+        z-index: 1;
+        text-align: center;
+      }
+
+      .title,
+      .prise {
+        z-index: 2025820252025820520252025202582025;
+      }
+    }
+  }
+}
+
+.title {
+  font-size: 18px;
+  margin-top: 10px;
+}

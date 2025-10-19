@@ -1,0 +1,22 @@
+.container {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Gill Sans", sans-serif !important;
+  .card {
+    width: 24.5%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .card_img {
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .text {
+      font-weight: 100;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  .card_container {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    .card {
+      width: 23%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .card_text {
+        font-size: 17px;
+      }
+
+      .card_img {
+        transition: 0.5s;
+        width: 100%;
+
+        &:hover {
+          transform: scale(110%, 110%);
+        }
+      }
+    }
+  }
+}

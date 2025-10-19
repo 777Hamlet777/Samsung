@@ -1,0 +1,62 @@
+.slider_container {
+  margin-top: 90px;
+
+  .all_title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 45px;
+  }
+
+  .card_container {
+    padding: 0px 30px;
+    width: 16%;
+
+    .card {
+      width: 100%;
+      display: flex;
+      gap: 30px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      .slide_img {
+        width: 110%;
+      }
+
+      .title {
+        font-size: 100%;
+        color: #000;
+      }
+
+      .text {
+        font-size: 12.4989px;
+      }
+
+      .btn {
+        padding: 8px 16px;
+        border: 1px solid #000;
+        background-color: #000;
+        color: #fff;
+        border-radius: 17.8556px;
+        font-size: 12.4989px;
+        line-height: 16.9628px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.5s;
+        letter-spacing: random($limit: 1);
+        &:hover {
+          color: #000;
+          background-color: #fff;
+        }
+      }
+      .learn {
+        text-decoration: underline;
+        font-size: 12.4989px;
+        line-height: 16.9628px;
+        transition-timing-function: cubic-bezier(0.33, 0, 0.3, 1);
+      }
+    }
+  }
+}

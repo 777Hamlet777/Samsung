@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 80px;
+
+  .text_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .title {
+      font-size: 40px;
+      font-weight: 500;
+    }
+    .about_title {
+      font-size: 15px;
+    }
+  }
+
+  .cards_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+    .card {
+      width: 24%;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+
+      .text {
+        font-size: 13px;
+        font-weight: 100;
+      }
+    }
+  }
+}

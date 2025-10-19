@@ -1,0 +1,56 @@
+.slider_container {
+  overflow: hidden;
+
+  .title2 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  .card {
+    width: 20%;
+    margin-left: 40px;
+    padding: 15px;
+
+    .slide_img {
+      width: 100%;
+      object-position: center;
+    }
+
+    .title {
+      font-size: 25px;
+      margin: 15px 15px 30px 20px;
+    }
+
+    .prise {
+      font-size: 20px;
+      margin: 15px 15px 30px 20px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .title2 {
+      font-size: 28px;
+      text-align: center;
+      margin-left: 0;
+    }
+
+    .card {
+      width: 80% !important;
+      margin: 0 auto;
+      padding: 10px;
+
+      .title {
+        font-size: 18px;
+        margin: 10px 0;
+        text-align: center;
+      }
+
+      .slide_img {
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
+}

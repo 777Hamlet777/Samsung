@@ -1,0 +1,43 @@
+.home_bg {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  height: 55vh;
+  background-image: url(../../../public/shopApp/bg8.webp);
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+
+  .text_container {
+    width: 650px;
+    gap: 20px;
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      font-size: 50px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    .text {
+      font-size: 18px;
+      font-weight: 500;
+    }
+    .btn {
+      width: 210px;
+      padding: 8px;
+      border: 1px solid black;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      justify-content: center;
+      font-size: 16px;
+      gap: 10px;
+    }
+  }
+}
